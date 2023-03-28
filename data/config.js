@@ -1,57 +1,40 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: "Welcome to Tap2Play!",
 }
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Welcome to Tap2Play!", 
 };
 
 export const projects = {
-  title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  title: 'Learning Objectives',
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'Science Concepts',
+      description: "Buoyancy is the force that makes things float or sink in water or other fluids.",
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
+      title: 'Activities at home',
+      description: "Make a boat out of aluminum foil and seeing how many pennies it can hold before sinking.",
     },
     {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'Fun Facts',
+      description: '"Eureka!" was first said when water displacement was used to measure the volume of a crown.',
     }
   ]
 };
 
 export const stack = {
-  title: 'My Stack',
+  title: 'Visted Learning Sites',
   stack: [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'Typescript',
-    'React',
-    'NextJS',
-    'TailwindCSS',
-    'Firebase',
-    'Git'
+    'Mariana',
+    'Construction',
+    'Beach',
+    'Trader Joes'
   ]
 };
 
 export const contact = {
   title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  email: 'jsaada2003@gmail.com',
 };

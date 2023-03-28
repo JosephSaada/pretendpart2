@@ -5,14 +5,14 @@ import { useTheme } from 'next-themes';
 export default function Hero() {
   const { theme, setTheme } = useTheme();
   return (
-    <div className="mb-20">
+    <div className="mb-100">
       <div className="flex flex-row items-center justify-between w-full">
         <div className="w-20 h-20 rounded-full relative overflow-hidden">
-          <Image
-            src="/static/profile.png"
+          <Image 
+            src="/static/icons/profile.png"
             layout="fill"
-            objectFit="contain"
-            alt="LeBron"
+            objectFit="cover"
+            alt="Profile picture"
           />
         </div>
         <Image

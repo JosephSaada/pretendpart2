@@ -18,50 +18,7 @@ export default function Stack() {
           {contact.email}
         </a>
       </p>
-      <div className="flex space-x-5 mt-5 text-lightText transition-colors duration-500">
-        {contact.github && (
-          <a
-            href={`https://github.com/${contact.github}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/github.svg"
-              width={20}
-              height={20}
-              alt="Github icon"
-            />
-          </a>
-        )}
-        {contact.dribbble && (
-          <a
-            href={`https://dribbble.com/${contact.dribbble}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/dribbble.svg"
-              width={20}
-              height={20}
-              alt="Dribbble icon"
-            />
-          </a>
-        )}
-        {contact.linkedin && (
-          <a
-            href={`https://linkedin.com/in/${contact.linkedin}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/linkedin.svg"
-              width={20}
-              height={20}
-              alt="LinkedIn icon"
-            />
-          </a>
-        )}
-      </div>
+
     </div>
   );
 }

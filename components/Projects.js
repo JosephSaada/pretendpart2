@@ -10,7 +10,7 @@ export default function Projects() {
         </h2>
       </div>
       <p className="text-lg">{projects.desc}</p>
-      <div className=" mt-8">
+      <div className=" mt-2">
         {projects.projects.map((item, index) => {
           return (
             <div
