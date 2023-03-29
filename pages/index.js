@@ -4,7 +4,8 @@ import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import Stack from '@/components/Stack'; 
 import BuoyancySimulation from '@/components/BuoyancySimulation'; 
-import gif from 'public/static/icons/buoyant-force.gif';
+import gif from 'public/static/icons/buoyant-force.gif'; 
+import image1 from 'public/static/icons/profile.png';
 import { meta } from '@/data/config';
 
 export default function Index() {
@@ -15,11 +16,11 @@ export default function Index() {
       </Head>
       <div className="p-6 lg:p-20 max-w-4xl m-auto w-full">
         <Hero /> 
-        <img src={gif} alt="buoyant force" />
+        <img src='static\icons\buoyant-force.gif'/>  
+        The coin sinks because it is heavy, the sponge because it is light
         <div>  
         {/* <BuoyancySimulation />   */}
         </div>
-        animation goes here 
         
         <div className="h-3"></div>
 
