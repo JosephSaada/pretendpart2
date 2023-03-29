@@ -19,12 +19,12 @@ export default function Index() {
         <img src='static\icons\buoyant-force.gif'/>  
         The coin sinks because it is heavy, the sponge because it is light
         <div>  
-        {/* <BuoyancySimulation />   */}
         </div>
         
         <div className="h-3"></div>
 
-          <Projects />
+          <Projects /> 
+          <BuoyancySimulation />  
           <Stack /> 
           <div className="h-3"></div>
           <Contact />
