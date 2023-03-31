@@ -24,7 +24,7 @@ export default function Index() {
         <div className="h-3"></div>
 
           <Projects /> 
-          <BuoyancySimulation />  
+          {/* <BuoyancySimulation />   */}
           <Stack /> 
           <div className="h-3"></div>
           <Contact />
